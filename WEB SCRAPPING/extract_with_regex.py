@@ -28,7 +28,7 @@ class ExtractwithRegex:
         self.phone_numbers = re.findall(self.phone_number_pattern, self.response.text)
     
     def find_addresses(self):
-        self.address_pattern = address_pattern = r'\d+\s[A-Za-z0-9\s,.#-]+(?:\s|<br>)+Suite(?:\s|<br>)+[A-Za-z0-9-]+(?:\s|<br>)+[A-Za-z\s]+,\s[A-Z]{2}\s\d{5}'
+        self.address_pattern = r'\d+\s[A-Za-z0-9\s,.#-]+(?:\s|<br>)+Suite(?:\s|<br>)+[A-Za-z0-9-]+(?:\s|<br>)+[A-Za-z\s]+,\s[A-Z]{2}\s\d{5}'
         self.addresses = re.findall(self.address_pattern, self.response.text, re.DOTALL)
 
     def print_emails(self):
