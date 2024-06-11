@@ -1,4 +1,4 @@
-## Web-Scraping
+# Web-Scraping
 
 This project, inspired by "Chapter 8: Web Scraping" of Bradford Tuckfield's  Dive Into Data Science, encompasses a comprehensive exploration of web scraping techniques using various tools and libraries. The project encapsulates the principles and practical applications of web scraping through a series of example scripts, each illustrating different aspects of the process.
 
